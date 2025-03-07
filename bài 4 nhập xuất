@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float x;
+    printf("Nhap ban cau R = ");
+    scanf("%f", &x);
+    printf("Dien tich = %.2f\n",x*x*4*3.14);
+    printf("The tich = %.2f",x*x*x/3*4*3.14);
+}
